@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": ["VIBE/src"],
+    "java.project.outputPath": "VIBE/bin",
+    "java.project.referencedLibraries": [
+        "VIBE/lib/**/*.jar"
+    ]
+}

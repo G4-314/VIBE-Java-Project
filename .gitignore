@@ -1,0 +1,13 @@
+# Java compiled files
+*.class
+**/bin/
+
+# Local credentials
+.env
+.env.*
+!*.example
+*.properties.local
+
+# Temporary files
+*.log
+*.tmp

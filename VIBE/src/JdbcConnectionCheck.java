@@ -25,7 +25,7 @@ public class JdbcConnectionCheck {
             System.out.println(
                 "Password input will be visible in this terminal."
             );
-            Scanner scanner = new Scanner(System.in);
+            try (Scanner scanner = new Scanner(System.in)) {
             System.out.print("Enter MySQL root password: ");
             password = scanner.nextLine();
         }
@@ -65,4 +65,5 @@ public class JdbcConnectionCheck {
             System.out.println("Reason: " + e.getMessage());
         }
     }
+}
 }

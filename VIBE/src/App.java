@@ -46,13 +46,21 @@ public class App {
                     }
                     break;
 
-                case 2:
-                case 3:
-                case 4:
-                case 5:
-                case 6:
-                    System.out.println("This module will be added soon.");
-                    break;
+                
+case 2:
+case 3:
+    System.out.println("This module will be added soon.");
+    break;
+
+case 4:
+    BookingMenu.showMenu(sc);
+    break;
+
+case 5:
+case 6:
+    System.out.println("This module will be added soon.");
+    break;
+
 
                 case 7:
                     System.out.println("Thank you for using VIBE!");

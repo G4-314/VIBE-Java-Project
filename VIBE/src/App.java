@@ -48,6 +48,9 @@ public class App {
 
                 
 case 2:
+    CustomerManagement.showMenu(sc);
+    break;
+
 case 3:
     System.out.println("This module will be added soon.");
     break;
@@ -57,6 +60,9 @@ case 4:
     break;
 
 case 5:
+    PaymentManagement.showMenu(sc);
+    break;
+
 case 6:
     System.out.println("This module will be added soon.");
     break;

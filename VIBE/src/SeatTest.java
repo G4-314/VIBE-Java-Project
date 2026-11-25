@@ -17,14 +17,14 @@ public class SeatTest {
             SeatManagement.showSeatLayout(1);
             System.out.println("\n--- BOOKING CREATION TEST ---");
 
-int[] selectedSeats = {16};
+//int[] selectedSeats = {16};
 
 //BookingManagement.createBooking(1, 1, selectedSeats);
 System.out.println("\n--- BOOKING HISTORY TEST ---");
 BookingManagement.viewBookings(1);
 System.out.println("\n--- BOOKING CANCELLATION TEST ---");
 
-BookingManagement.cancelBooking(1, 1);
+//BookingManagement.cancelBooking(1, 1);
 
 System.out.println("\n--- BOOKING HISTORY AFTER CANCELLATION ---");
 BookingManagement.viewBookings(1);

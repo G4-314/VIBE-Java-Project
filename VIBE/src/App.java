@@ -61,7 +61,7 @@ public class App {
                     System.out.println("1. Add Event");
                     System.out.println("2. View Events");
                     System.out.println("3. Search Event");
-                    System.out.println("4. Delete Event");
+                    System.out.println("4. Deactivate Event");
                     System.out.println("5. Back to Main Menu");
                     System.out.print("Enter your choice: ");
 
